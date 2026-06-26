@@ -1,0 +1,2 @@
+import Link from 'next/link';import { Button } from '@/components/ui/button';
+export default function NotFound(){return <main dir="rtl" className="grid min-h-screen place-items-center bg-[#0F1117] text-[#F5F7FA]"><div className="text-center"><h1 className="text-4xl font-black">صفحه پیدا نشد</h1><Button asChild className="mt-6 bg-[#6EEB83] text-[#0F1117]"><Link href="/dashboard">بازگشت</Link></Button></div></main>}
