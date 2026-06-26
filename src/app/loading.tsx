@@ -1,0 +1,1 @@
+export default function Loading(){return <div dir="rtl" className="min-h-screen bg-[#0F1117] p-8 text-[#F5F7FA]"><div className="mx-auto h-8 w-48 animate-pulse rounded-xl bg-[#171B24]"/><div className="mx-auto mt-6 h-96 max-w-5xl animate-pulse rounded-2xl bg-[#171B24]"/></div>}

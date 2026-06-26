@@ -1,0 +1,2 @@
+import { AppShell } from '@/components/layout/AppShell';import { MarketCard,MiniStats,OverviewCards,TopMoversCard } from '@/components/dashboard/DashboardSections';
+export default function DashboardPage(){return <AppShell><div className="space-y-6"><section><p className="text-[#9CA3AF]">نمای کلی بازار ارزهای دیجیتال</p><h1 className="text-3xl font-black md:text-4xl">داشبورد معاملات</h1></section><section className="grid gap-6 xl:grid-cols-3"><MarketCard/><TopMoversCard/></section><MiniStats/><OverviewCards/></div></AppShell>}
